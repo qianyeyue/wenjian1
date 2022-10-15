@@ -1,0 +1,94 @@
+h1 {
+    color: rgb(252, 252, 252);
+    font: normal 700 100px '宋体';
+    text-align: left;
+    margin: 0px;
+    width: 1750px;
+    height: 400px;
+    text-indent: 1em;
+}
+
+.tupian1 td {
+    color: rgb(0, 0, 0);
+    font: normal 700 40px '宋体';
+    text-align: left;
+    position:relative;
+    left:500px;
+
+}
+
+.tupian2 td {
+    color: rgb(0, 0, 0);
+    font: normal 700 40px '宋体';
+   
+}
+.tupian3 td {
+    color: rgb(0, 0, 0);
+    font: normal 700 40px '宋体';
+    text-align: left;
+    position:relative;
+    left:600px;
+
+}
+
+.tupian1 tr {
+    float: left;
+}
+
+
+
+.ul1 li {
+    top: 0;
+    position: fixed;
+}
+.title a {
+    color: antiquewhite;
+    text-decoration: none;
+    font: normal 700 40px '宋体';
+}
+.tupian2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: normal 700 40px '宋体';
+}
+.tupian1 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: normal 700 40px '宋体';
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+#daoyuluori{
+    position:relative;
+    left:600px;
+}
+#hongyezhiqiu{
+    position:relative;
+    left:150px;
+}
+#shanshuiruhua{
+    position:relative;
+    left: 600px;
+}
+#gangtiedushi{
+    position: relative;
+    left: 600px;
+}
+#tianqiongzhixia{
+    position:relative;
+    left:150px
+}
+#xiangcunfengguang{
+    position:relative;
+    left:150px
+}
+#guqiaorenjia{
+    position:relative;
+    left:150px
+}
+#riluobingchuan{
+    position:relative;
+    left:600px
+}

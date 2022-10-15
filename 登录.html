@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        登录界面
+    </title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <h2>摄影之家登录界面</h2>
+    <table width="500">
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" value="请输入名称" name="username" id="username"></td>
+            </tr>
+            <tr>
+                <td>账户密码</td>
+                <td><input type="password" value="请输入密码" name="pwd" id="pwd"></td>
+            </tr>
+
+            <tr>
+                <td><a href="注册.html"><button type="button" >返回注册界面</button></a></td>
+                <td>
+                    <button type="button" onclick="submit()" id="denglu">登录</button>
+                    <a href="摄影之家.html">返回首页</a>
+                </td>
+            </tr>
+    </table>
+</body>
+<script>
+     function open_win() {
+            window.open("./摄影之家.html");
+        }
+        var test = document.getElementById("username")
+        var password = document.getElementById("pwd")
+        function submit(){
+            var testvl = test.value;
+            var passwordvl = password.value;
+            console.log(testvl)
+            if (testvl == "" || passwordvl == "") {
+                console.log("账号或密码不能为空");
+                return false;
+            } else if (testvl != "1234") {
+                console.log("账号输入错误");
+                return false;
+            } else if (passwordvl != "1234") {
+                console.log("密码输入错误");
+                return false;
+            } else {
+                console.log("登录成功");
+                open_win()
+            }
+        }
+        submit()
+</script>	

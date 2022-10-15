@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>密码登录</title>
+</head>
+
+<body>
+    账号：<input type="text" id="test" placeholder="请输入账号">
+    密码：<input type="password" id="password" placeholder="请输入密码">
+    <button type="button" onclick="submit()">登录</button>
+    <input type="reset" value="重置">
+    <script>
+        function open_win() {
+            window.open("./摄影之家.html");
+        }
+        var test = document.getElementById("test")
+        var password = document.getElementById("password")
+        function submit(){
+            var testvl = test.value;
+            var passwordvl = password.value;
+            console.log(testvl)
+            if (testvl == "" || passwordvl == "") {
+                console.log("账号或密码不能为空");
+                return false;
+            } else if (testvl != "1234") {
+                console.log("账号输入错误");
+                return false;
+            } else if (passwordvl != "1234") {
+                console.log("密码输入错误");
+                return false;
+            } else {
+                console.log("登录成功");
+                open_win()
+            }
+        }
+        submit()
+    </script>
+</body>
+
+</html>
